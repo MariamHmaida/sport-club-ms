@@ -19,9 +19,7 @@ namespace App
 
         ShowEntityManagementForm showManagementForm { set; get; }
 
-        /// <summary>
-        /// !commentaires
-        /// </summary>
+        
         public FormMenu()
         {
             
