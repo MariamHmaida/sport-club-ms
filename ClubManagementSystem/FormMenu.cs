@@ -19,9 +19,13 @@ namespace App
 
         ShowEntityManagementForm showManagementForm { set; get; }
 
-        
+        /// <summary>
+        /// AAA
+        /// </summary>
         public FormMenu()
         {
+
+            
             
             // Default User 
             User user = new User();
