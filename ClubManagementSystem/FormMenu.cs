@@ -15,10 +15,13 @@ using App.WinForm.Application;
 namespace App
 {
     public partial class FormMenu : BaseForm, IApplicationMenu
-    {//aaa
+    {
 
         ShowEntityManagementForm showManagementForm { set; get; }
-        
+
+        /// <summary>
+        /// !commentaires
+        /// </summary>
         public FormMenu()
         {
             
