@@ -19,9 +19,12 @@ namespace App
 
         ShowEntityManagementForm showManagementForm { set; get; }
 
-
+        /// <summary>
+        /// !commentaires
+        /// </summary>
         public FormMenu()
         {
+            
             // Default User 
             User user = new User();
             user.Name = "ES-SARRAJ";
